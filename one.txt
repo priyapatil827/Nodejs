@@ -1,3 +1,10 @@
 client request on http://localhost:4040/ by GET at function getDate() { [native code] }/12/2025 11:32:58 from this IP:::1
 client request on http://localhost:4040/ by POST at function getDate() { [native code] }/12/2025 11:33:7 from this IP:::1
 client request on http://localhost:4040/ by PUT at function getDate() { [native code] }/12/2025 11:33:12 from this IP:::1
+client request on http://localhost:4040/ by GET at function getDate() { [native code] }/12/2025 11:37:14 from this IP:::1
+client request on http://localhost:4040/ by POST at function getDate() { [native code] }/12/2025 11:37:19 from this IP:::1
+client request on http://localhost:4040/ by DELETE at function getDate() { [native code] }/12/2025 11:37:25 from this IP:::1
+client request on http://localhost:4040/about by DELETE at function getDate() { [native code] }/12/2025 11:37:31 from this IP:::1
+client request on http://localhost:4040/about by GET at function getDate() { [native code] }/12/2025 11:37:38 from this IP:::1
+client request on http://localhost:4040/portfolio by GET at function getDate() { [native code] }/12/2025 11:37:51 from this IP:::1
+client request on http://localhost:4040/portfolio by DELETE at function getDate() { [native code] }/12/2025 11:37:58 from this IP:::1
