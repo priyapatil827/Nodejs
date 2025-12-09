@@ -1,0 +1,3 @@
+client request on http://localhost:4040/ by GET at function getDate() { [native code] }/12/2025 11:32:58 from this IP:::1
+client request on http://localhost:4040/ by POST at function getDate() { [native code] }/12/2025 11:33:7 from this IP:::1
+client request on http://localhost:4040/ by PUT at function getDate() { [native code] }/12/2025 11:33:12 from this IP:::1
