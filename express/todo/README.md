@@ -109,26 +109,12 @@ DELETE /todo/:id
 
 ## 📺 Postman Testing Video
 
-👉 Add your video URL here  
-```
-
-```
-
-
 https://github.com/user-attachments/assets/40d12251-0bd6-48b4-9de2-7db931b7fd46
 
 
----
 
-## 📤 GitHub Submission
 
-Upload all files to your GitHub repository and include:
 
-- Source Code  
-- README.md  
-- Postman Test Video Link  
 
----
 
-## 📝 Author
-Your Name  
+
