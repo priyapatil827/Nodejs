@@ -1,111 +1,118 @@
-
 .right-panel {
-  width: 560px;
+  width: 340px;
   padding: 20px;
-  color: #e7e9ea;
+  background: #ffffff;
+  font-family: "Segoe UI", sans-serif;
 }
 
-/* Search */
+/* SEARCH */
 .search-box input {
   width: 100%;
-  padding: 12px 18px;
-  border-radius: 999px;
+  padding: 12px 16px;
+  border-radius: 30px;
   border: none;
+  background: #eff3f4;
   outline: none;
-  background: #202327;
-  color: white;
-  font-size: 15px;
+  font-size: 14px;
 }
 
-/* Card */
+/* CARD */
 .card {
-  background: #16181c;
-  margin-top: 15px;
-  padding: 15px;
+  background: #f7f9f9;
+  margin-top: 20px;
   border-radius: 16px;
+  padding: 15px;
 }
 
 .card h3 {
-  margin: 0 0 12px;
   font-size: 18px;
-  font-weight: 800;
+  margin-bottom: 10px;
+   color: #1da1f2;
 }
 
-/* Trends */
+/* TREND */
 .trend {
-  padding: 10px 0;
+  padding: 12px;
+  border-radius: 12px;
   cursor: pointer;
+  transition: background 0.3s;
+}
+
+.trend
+{
+  color: rgb(133, 132, 132);
 }
 
 .trend:hover {
-  background: #1d1f23;
-  margin: 0 -15px;
-  padding: 10px 15px;
+  background: #e6ecf0;
 }
 
 .category {
   font-size: 12px;
-  color: #71767b;
+  color: rgb(77, 74, 74);
 }
 
 .trend strong {
   display: block;
+  margin: 4px 0;
   font-size: 15px;
-  margin: 2px 0;
 }
 
 .count {
   font-size: 12px;
-  color: #71767b;
+  color: rgb(216, 42, 42);
 }
 
-/* Show more */
-.show-more {
-  color: #1d9bf0;
-  font-size: 14px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-/* Follow section */
+/* FOLLOW */
 .follow {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin-top: 12px;
 }
 
 .avatar {
   width: 40px;
   height: 40px;
-  background: #1d9bf0;
   border-radius: 50%;
+  background: linear-gradient(135deg, #1da1f2, #0d8ddb);
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
+  margin-right: 10px;
 }
 
 .user {
   flex: 1;
-  margin-left: 10px;
 }
 
 .user span {
+  display: block;
   font-size: 13px;
-  color: #71767b;
+  color: gray;
 }
 
+/* BUTTON */
 .follow button {
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   border: none;
-  border-radius: 999px;
   padding: 6px 14px;
+  border-radius: 20px;
   font-weight: bold;
   cursor: pointer;
 }
 
 .follow button:hover {
-  background: #e6e6e6;
+  background: #333;
+}
+
+/* SHOW MORE */
+.show-more {
+  display: block;
+  margin-top: 10px;
+  color: #1da1f2;
+  font-size: 14px;
+  cursor: pointer;
 }
