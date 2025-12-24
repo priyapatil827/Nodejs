@@ -65,10 +65,15 @@ displaying tweet list
 SideBar.jsx and RightPanel.jsx render the UI layout
 
 ~Backend API Endpoints
+
 Method	Endpoint	Description
+
 GET	/	Get all tweets
+
 POST	/	Add new tweet
+
 PUT	/:id	Update tweet by id
+
 DELETE	/:id	Delete tweet by id
 
 Data is read and written to two.json using Node’s fs module.
@@ -105,9 +110,13 @@ two.json
 Each tweet has:
 
 {
+  
   "id": 1,
+  
   "title": "Sample title",
+  
   "twitts": "Sample tweet text"
+
 }
 
 ## 🛡️ Error Handling
